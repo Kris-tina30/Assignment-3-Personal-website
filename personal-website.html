@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal website</title>
+    <style>
+      body {
+        background-color: burlywood;
+      }
+      a {
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div>
+        <a href="logo#">LOGO</a>
+        <h1>Welcome to My Page</h1>
+      </div>
+      <nav>
+        <ul>
+          <li>
+            <a href="./personal-website.html">Home</a>
+          </li>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#table">Table</a>
+          </li>
+          <li>
+            <a href="#form">Form</a>
+          </li>
+          <li>
+            <a href="#contacts">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <hr />
+      <section id="about">
+        <h2>About myself</h2>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut praesentium corrupti nostrum
+          animi officiis deserunt maiores ratione, deleniti voluptas alias error voluptate eum
+          soluta odit quod minima magni atque voluptates? Lorem ipsum dolor sit, amet consectetur
+          adipisicing elit. Facilis, dolorum, tenetur fugiat ipsam cupiditate porro architecto
+          possimus temporibus corrupti earum, iste quae labore accusamus perferendis asperiores
+          quibusdam est similique odio.
+        </p>
+      </section>
+      <section id="table">
+        <h2>Table</h2>
+        <table>
+          <thead>
+            <tr>
+              Kristina
+            </tr>
+            <tr>
+              Viktoria
+            </tr>
+          </thead>
+          <tbody>
+            <td>1</td>
+            <td>2</td>
+          </tbody>
+          <td>green</td>
+          <td>blue</td>
+          <tbody></tbody>
+        </table>
+      </section>
+      <section id="form">
+        <h2>Form</h2>
+        <form method="post" action="http://server1">
+          <label for="name">Enter your name:</label>
+          <input type="text" name="fname" id="name" placeholder="please write your name" />
+          <br />
+          <label for="age">Enter your age:</label>
+          <input type="text" name="age" id="age" placeholder="please write your age" />
+          <br />
+          <p>Enter your gender:</p>
+          <input type="radio" name="gender" id="male" value="male" />
+          <label for="male">male</label>
+          <input type="radio" name="gender" id="female" value="female" />
+          <label for="female">female</label>
+          <br />
+          <label for="city">Ideal city to visit?</label>
+          <select id="city" name="city">
+            <option value="london">London</option>
+            <option value="barcelona">Barcelona</option>
+            <option value="rotterdam">Rotterdam</option>
+            <option value="amsterdam">Amsterdam</option>
+            <option value="budapest">Budapest</option>
+          </select>
+          <br />
+          <input type="checkbox" id="remember" value="Remember Me" />
+          <label for="remember">Remember Me</label>
+          <br />
+          <input type="submit" value="Submit" />
+        </form>
+      </section>
+    </main>
+    <footer id="contacts">
+      <h2>My contacts</h2>
+      <ul>
+        <li><a href="tel:31620696651">+31620696651</a></li>
+        <li><a href="mailto:kristina.pichkar.15@gmail.com">kristina.pichkar.15@gmail.com</a></li>
+        <li><a href="#">LinkedIn</a></li>
+      </ul>
+      <p>&copy; 2025 My Web Page</p>
+    </footer>
+  </body>
+</html>
