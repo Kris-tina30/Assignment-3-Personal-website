@@ -57,29 +57,32 @@
         <table>
           <thead>
             <tr>
-              Kristina
-            </tr>
-            <tr>
-              Viktoria
+              <th>Kristina</th>
+              <th>Viktoria</th>
             </tr>
           </thead>
           <tbody>
-            <td>1</td>
-            <td>2</td>
+            <tr>
+              <td>1</td>
+              <td>2</td>
+            </tr>
           </tbody>
-          <td>green</td>
-          <td>blue</td>
-          <tbody></tbody>
+          <tbody>
+            <tr>
+              <td>green</td>
+              <td>blue</td>
+            </tr>
+          </tbody>
         </table>
       </section>
       <section id="form">
         <h2>Form</h2>
         <form method="post" action="http://server1">
           <label for="name">Enter your name:</label>
-          <input type="text" name="fname" id="name" placeholder="please write your name" />
+          <input type="text" name="fname" id="name" placeholder="please write your name" required />
           <br />
           <label for="age">Enter your age:</label>
-          <input type="text" name="age" id="age" placeholder="please write your age" />
+          <input type="text" name="age" id="age" placeholder="please write your age" required />
           <br />
           <p>Enter your gender:</p>
           <input type="radio" name="gender" id="male" value="male" />
